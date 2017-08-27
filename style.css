@@ -1,0 +1,66 @@
+
+/* för att nollställa margin och padding som är default*/
+html, body, div, header, nav, main, section, footer, ul {margin: 0px; padding: 0px;}
+/* öka chansen att det fungerar i äldre webbläsare*/
+html, body, div, header, nav, main, section, footer {display:block; box-sizing: border-box;}
+
+#wrap {max-width:1200px; margin:0 auto; /* Sidan centrerat horisontellt. */
+      border-left: 1px solid #0066cc;
+      border-right: 1px solid #0066cc;
+      border-bottom: 1px solid #0066cc;
+      }
+
+header {
+  background-image:url(mingoogle2-l.gif);
+  background-repeat:no-repeat;
+  background-position: 50% 40%;
+  height: 250px;
+  margin-top: 100px;
+  background-size: auto 167px;
+  align: center;
+  border-top: 1px solid #0066cc;}
+
+header h1 {display:none;}
+
+#form {
+  width: 400px;
+margin: 0 auto; }
+#search{
+
+}
+#search_submit{
+  
+}
+
+
+
+li {
+  display: inline;
+  padding: 0px 10px 0px 0px;
+  align-self: center;}
+
+ul {
+  align-items: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+#push {
+  height: 200px;
+}
+
+footer{
+  --visibility: hidden;
+  }  /*tar bort den tillfälligt pga ful*/
+footer {background-color:#fff; color: #fff; padding:10px;
+        max-width:1200px; margin:0 auto;}
+footer a {text-decoration: none;}
+footer a:link, footer a:visited { color: #0066cc;}
+footer a:hover, footer a:active  {color: #0066cc;}
