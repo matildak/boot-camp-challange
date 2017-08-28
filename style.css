@@ -26,8 +26,15 @@ header h1 {display:none;}
   width: 400px;
 margin: 0 auto; }
 #search{
-    border: 2px solid #0066cc;
+    border: 1px solid #0066cc;
     border-radius: 4px;
+    outline: none;
+    width: 130px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
 }
 #search_submit{
     border: 2px solid #0066cc;
