@@ -14,7 +14,7 @@ header {
   background-image:url(mingoogle2-l.gif);
   background-repeat:no-repeat;
   background-position: 50% 40%;
-  height: 250px;
+  height: 200px;
   margin-top: 100px;
   background-size: auto 167px;
   align: center;
@@ -24,12 +24,13 @@ header h1 {display:none;}
 
 #form {
   width: 400px;
-margin: 0 auto; }
+margin: 0 auto;
+text-align: center;}
 #search{
     border: 1px solid #0066cc;
     border-radius: 8px;
     outline: none;
-    width: 130px;
+    width: 230px;
     font-size: 16px;
     background-color: white;
     padding: 12px 20px 12px 20px;
@@ -43,11 +44,13 @@ margin: 0 auto; }
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    align-self: center;
   }
   #search_submit:hover {
   background: #3cb0fd;
   text-decoration: none;
 }
+
 
 
 
@@ -59,15 +62,6 @@ li {
 ul {
   align-items: flex-start;
 }
-
-
-
-
-
-
-
-
-
 
 #push {
   height: 200px;
@@ -81,3 +75,29 @@ footer {background-color:#fff; color: #fff; padding:10px;
 footer a {text-decoration: none;}
 footer a:link, footer a:visited { color: #0066cc;}
 footer a:hover, footer a:active  {color: #0066cc;}
+
+
+/*för skärmar smalare än 1200 pixlar*/
+@media screen and (max-width: 1200px){
+	header{height: 200px; background-size: auto 150px;}
+}
+
+/*för skärmar smalare än 680 pixlar*/
+@media screen and (max-width: 680px){
+	header{height: 200px; background-size: auto 130px;}
+}
+
+/*för skärmar smalare än 585 pixlar*/
+@media screen and (max-width: 585px){
+  header{background-image:url(mingoogle3-l.gif);
+    height: 150px; background-size: auto 150px;}
+    #search{
+      margin-top: 20px;
+      }
+    #search_submit{
+      margin-top: 20px;
+      }
+      #wrap {padding-top: 30px;
+      }
+
+}
